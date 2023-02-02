@@ -1,0 +1,5 @@
+/fx bomb-smoke
+
+@{selected|wtype}&{template:spell} {{level=abjuration 1}} {{name=Mage Armor}} {{castingtime=1 action}} {{range=Touch}} {{target=A willing creature who isn't wearing armor}} {{v=1}} {{s=1}} {{m=1}} {{material=A piece of cured leather}} {{duration=8 hours}} {{description=You touch a willing creature who isn’t wearing armor, and a protective magical force surrounds it until the spell ends. The target’s base AC becomes 13 + its Dexterity modifier. The spell ends if the target dons armor or if you dismiss the spell as an action.}} {{athigherlevels=}} 0 {{innate=}} 0 @{selected|charname_output}
+
+!token-mod --ids @{target|Target 1|token_id} --set statusmarkers|+breastplate-buff:[[3+@{target|Target 1|dexterity_mod}]]
