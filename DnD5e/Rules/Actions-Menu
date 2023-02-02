@@ -1,0 +1,10 @@
+/w @{selected|character_name} &{template:traits} {{name=Actions}} {{source=Action Menu}} {{description=[Dodge](~Dodge)
+---
+**Grapple**
+[Attack](~Grapple-Attack) [Escape](~Grapple-Escape)
+---
+**Jump**
+[High](~High-Jump) [Long](~Long-Jump)
+---
+[Shove](~Shove)
+}}
