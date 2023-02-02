@@ -1,0 +1,3 @@
+@{selected|wtype}&{template:spell} {{level=divination cantrip}} {{name=True Strike}} {{castingtime=1 action}} {{range=30 feet}} {{target=A target in range}} 0 {{s=1}} 0 {{material=}} {{duration=Up to 1 round}} {{description=You point a finger at a target in range. Your magic grants you a brief insight into the target’s defenses. On your next turn, you gain advantage on your first attack roll against the target, provided that this spell hasn’t ended.}} {{athigherlevels=}} 0 {{innate=}} {{concentration=1}} @{selected|charname_output}
+
+!cmaster --add,condition=concentration,duration=1,direction=-1,message=Concentrating on True Strike
