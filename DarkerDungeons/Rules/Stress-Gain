@@ -1,0 +1,1 @@
+/w @{selected|character_name} &{template:default} {{name=Stress Gain: @{selected|character_name}}} !modattr --silent --modb --charid @{selected|character_id} --stress|+{{?{How much stress?|1d1 Minor|1d4 Moderate|1d6 Major|1d6+4 Monstrous}=[[?{How much stress?}]]}} !!!}
