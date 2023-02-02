@@ -1,0 +1,10 @@
+!Spawn {{
+--name| Mage Hand
+--size| 1,1
+--offset| 1,0
+--fx| glow-smoke
+}}
+
+@{selected|wtype}&{template:spell} {{level=conjuration cantrip}} {{name=Mage Hand}} {{castingtime=1 action}} {{range=30 feet}} {{target=A point you choose within range}} {{v=1}} {{s=1}} 0 {{material=}} {{duration=1 minute}} {{description=A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again. You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it. The hand can’t attack, activate magic items, or carry more than 10 pounds.}} {{athigherlevels=}} 0 {{innate=}} 0 @{selected|charname_output}
+
+!cmaster --add,condition=mage hand,duration=10,direction=-1
