@@ -1,0 +1,11 @@
+!Spawn {{
+--name| Arms of Hadar
+--size| 5,5
+--offset| 0,0
+--fx| burst-charm
+--order| bottom
+}}
+
+@{selected|wtype}&{template:atkdmg} {{mod=DC(@{selected|spell_save_dc})}} {{rname=Arms of Hadar}} {{r1=[[0d20cs>20]]}} {{r2=[[0d20cs>20]]}} 0 {{range=Self (10' radius)}} {{damage=1}} {{dmg1flag=1}} {{dmg1=[[2d6]]}} {{dmg1type=Necrotic }} 0 {{dmg2=[[0]]}} {{dmg2type=}} {{crit1=[[2d6[CRIT]]]}} {{crit2=[[0[CRIT]]]}} {{save=1}} {{saveattr=Strength}} {{savedesc=half damage}} {{savedc=[[[[(@{selected|spell_save_dc})]][SAVE]]]}} {{desc=You invoke the power of Hadar, the Dark Hunger. Tendrils of dark energy erupt from you and batter all creatures within 10 feet of you. Each creature in that area must make a Strength saving throw. On a failed save, a target takes 2d6 necrotic damage and can't take reactions until its next turn. On a successful save, the creature takes half damage, but suffers no other effect.
+
+At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.}} {{hldmg=[[(1*?{Cast at what level?|Level 1,0|Level 2,1|Level 3,2|Level 4,3|Level 5,4|Level 6,5|Level 7,6|Level 8,7|Level 9,8})d6]]}} {{hldmgcrit=[[(1*?{Cast at what level?|Level 1,0|Level 2,1|Level 3,2|Level 4,3|Level 5,4|Level 6,5|Level 7,6|Level 8,7|Level 9,8})d6]]}} {{spelllevel=1}} {{innate=}} {{globalattack=@{selected|global_attack_mod}}} {{globaldamage=[[0]]}} {{globaldamagecrit=[[0]]}} {{globaldamagetype=@{selected|global_damage_mod_type}}} ammo= @{selected|charname_output}
