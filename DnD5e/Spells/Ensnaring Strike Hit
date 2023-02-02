@@ -1,0 +1,1 @@
+!token-mod --ignore-selected --ids @{target|token_id} --set statusmarkers|ensnaring-strike|fishing-net
