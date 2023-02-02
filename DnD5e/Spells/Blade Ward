@@ -1,0 +1,5 @@
+/fx burst-magic
+
+@{selected|wtype}&{template:spell} {{level=abjuration cantrip}} {{name=Blade Ward}} {{castingtime=1 action}} {{range=Self}} {{target=Self}} {{v=1}} {{s=1}} 0 {{material=}} {{duration=1 round}} {{description=You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks.}} {{athigherlevels=}} 0 {{innate=}} 0 @{selected|charname_output}
+
+!cmaster --add,condition=blade ward,duration=1,direction=-1
