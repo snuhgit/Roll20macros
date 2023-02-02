@@ -1,0 +1,6 @@
+!Spawn {{
+--name|Fog Cloud
+--size| 4,4
+--fx| burst-smoke
+}}
+@{selected|wtype}&{template:spell} {{level=conjuration ?{Cast at what level?|Level 1,1|Level 2,2|Level 3,3|Level 4,4|Level 5,5|Level 6,6|Level 7,7|Level 8,8|Level 9,9}}} {{name=Fog Cloud}} {{castingtime=1 action}} {{range=120 feet}} {{target=A point within range}} {{v=1}} {{s=1}} 0 {{material=}} {{duration=Up to 1 hour}} {{description=You create a 20-foot-radius sphere of fog centered on a point within range. The sphere spreads around corners, and its area is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.}} {{athigherlevels=When you cast this spell using a spell slot of 2nd level or higher, the radius of the fog increases by 20 feet for each slot level above 1st.}} 0 {{innate=}} {{concentration=1}} @{selected|charname_output}
