@@ -1,0 +1,5 @@
+@{selected|wtype}&{template:atkdmg} {{mod=@{selected|spell_attack_bonus}}} {{rname=Produce Flame}} {{r1=[[@{selected|d20}cs>20 + [SPELL] @{selected|spellcasting_ability} [PROF] @{selected|pb}]]}} @{selected|rtype}cs>20 + [SPELL] @{selected|spellcasting_ability} [PROF] @{selected|pb}]]}} {{attack=1}} {{range=Self}} {{damage=1}} {{dmg1flag=1}} {{dmg1=[[[[round((@{selected|level} + 1) / 6 + 0.5)]]d8]]}} {{dmg1type=Fire }} 0 {{dmg2=[[0]]}} {{dmg2type=}} {{crit1=[[[[round((@{selected|level} + 1) / 6 + 0.5)]]d8[CRIT]]]}} {{crit2=[[0[CRIT]]]}} 0 {{desc=You can hurl the flame at a creature within 30 feet of you. Make a ranged spell attack. On a hit, the target takes 1d8 fire damage.
+
+This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).}}   {{spelllevel=cantrip}} {{innate=}} {{globalattack=@{selected|global_attack_mod}}} {{globaldamage=[[0]]}} {{globaldamagecrit=[[0]]}} {{globaldamagetype=@{selected|global_damage_mod_type}}} ammo= @{selected|charname_output}"
+
+!cmaster --remove,condition=produce flame
