@@ -1,0 +1,1 @@
+!{& define ([CampResult] [[d20+@{selected|strength_mod}+@{selected|survival_prof} ]])}&{template:default} {{name=Make Camp}} {{Survival/Str Roll=CampResult}}{& if CampResult < @{Campsite|camp_dc}}{{Failure}}%NEWLINE%!modattr --name Campsite --failures|1{& end}{& simple}

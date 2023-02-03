@@ -1,0 +1,1 @@
+add all macros to Character sheet named "Campsite"
