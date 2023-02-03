@@ -1,1 +1,6 @@
-
+!setattr --name Campsite --setup_failures|0 --setup_successes|0 --camp_dc|?{Camp DC|5-Trivial,5|10-Safe and dry,10|15-Hard to find or bad weather,15|20-Unsafe or terrible weather,20}
+&{template:default} {{name=Let's Make A Camp (DC ?{Camp DC})}} {{actions=
+[Survival+Int](~Camp-Setup-Survival-Int)
+[Survival+Str](~Camp-Setup-Survival-Str)
+[Survival+Wis](~Camp-Setup-Survival-Wis)
+[Other](~Camp-Setup-Other)}}

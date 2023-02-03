@@ -1,0 +1,3 @@
+/w @{selected|character_name} &{template:default} {{name=@{selected|character_name} gets some sleep}} {{Result=[[?{Roll Type|Standard, 1d20|Advantage, 2d20kh1|Disadvantage, 2d20kl1}+@{selected|constitution_mod}]]}} {{Success=Regain 1 spent Hit Die.
+Heal 3 Fatigue.
+Heal [[1d6]] Stress.}} {{Fail=Gain [[1d4]] Stress.}}

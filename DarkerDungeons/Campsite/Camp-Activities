@@ -1,0 +1,7 @@
+!setattr --name Campsite --activity_dc|{& if @{Campsite|setup_failures} > 1}15{& elseif @{Campsite|setup_failures} = 1}10{& else}5{& end}
+
+!group-check --whisper --Camping
+
+&{template:default} {{name=Camp Activities }} {{[Brew Drinks](~Camp-Brew-Drinks-Menu)= [Cook Food](~Camp-Cook-Food-Menu)}} {{[Craft an Item](~Camp-Craft-an-Item)= [Lookout](~Camp-Lookout)}} {{[Play a Game](~Camp-Play-a-Game)= [Play Music](~Camp-Play-Music)}} {{[Relax in Solitude](~Camp-Relax-in-Solitude)= [Tell a Story](~Camp-Tell-a-Story)}}
+
+!roll20AM --config,menu=Camp
