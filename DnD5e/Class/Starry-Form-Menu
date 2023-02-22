@@ -1,0 +1,10 @@
+@{selected|wtype}&{template:traits} @{selected|charname_output} {{name=Starry Form}} {{source=Class: Circle of the Stars Druid}} {{description=As a bonus action, you can expend a use of your Wild Shape feature to take on a starry form, rather than transforming into a beast.
+
+While in your starry form, you retain your game statistics, but your body becomes luminous; your joints glimmer like stars, and glowing lines connect them as on a star chart. This form sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The form lasts for 10 minutes. It ends early if you dismiss it (no action required), are incapacitated, die, or use this feature again.
+
+Whenever you assume your starry form, choose which of the following constellations glimmers on your body; your choice gives you certain benefits while in the form:
+[Archer](!cmaster --add,condition=starry form,duration=100,direction=-1,message=As a bonus action you can make a ranged spell attack.)
+[Chalice](!cmaster --add,condition=starry form,duration=100,direction=-1,message=Your healing spells may trigger bonus healing.)
+[Dragon](!cmaster --add,condition=starry form,duration=100,direction=-1,message=Concentration checks have a min roll of 10.)}}
+
+!token-mod --set emits_bright_light|on emits_low_light|on bright_light_distance|10 low_light_distance|10 light_angle|360
