@@ -1,0 +1,1 @@
+@{selected|wtype}&{template:traits} @{selected|charname_output} {{name=Ritual Casting}} {{source=Class: Cleric}} {{description=You can cast a cleric spell as a ritual if that spell has the ritual tag and you have the spell prepared.}}
