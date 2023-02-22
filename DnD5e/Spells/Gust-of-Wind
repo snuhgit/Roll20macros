@@ -1,0 +1,12 @@
+!Spawn {{
+--name| Gust of Wind
+--offset| 6.5,0
+--size| 12,2
+--bar1| @{selected|spell_save_dc}/
+--force| yes
+--order| back
+}}
+
+!splay Gust of Wind
+
+@{selected|wtype}&{template:spell} {{level=evocation 2}} {{name=Gust of Wind}} {{castingtime=1 action}} {{range=Self (60-foot line)}} {{target=Self (60-foot line)}} {{v=1}} {{s=1}} {{m=1}} {{material=A legume seed}} {{duration=Up to 1 minute}} {{description=A line of strong wind 60 feet long and 10 feet wide blasts from you in a direction you choose for the spell’s duration. Each creature that starts its turn in the line must succeed on a [Strength saving throw](`/gr 1d20 STR save vs DC [[@{selected|spell_save_dc}]]) against DC [[@{selected|spell_save_dc}]] or be pushed 15 feet away from you in a direction following the line. Any creature in the line must spend 2 feet of movement for every 1 foot it moves when moving closer to you. The gust disperses gas or vapor, and it extinguishes candles, torches, and similar unprotected flames in the area. It causes protected flames, such as those of lanterns, to dance wildly and has a [50](`/gr 1d100) percent chance to extinguish them. As a bonus action on each of your turns before the spell ends, you can change the direction in which the line blasts from you.}} {{athigherlevels=}} 0 {{innate=}} {{concentration=1}} @{selected|charname_output}
