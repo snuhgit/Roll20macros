@@ -1,0 +1,7 @@
+@{selected|wtype}&{template:atkdmg} {{mod=DC[[@{selected|spell_save_dc}}} {{rname=Cause Fear}} {{r1=[[0d20cs>20]]}} {{r2=[[0d20cs>20]]}} 0 {{range=60'}} 0 {{dmg1=[[0]]}} {{dmg1type=}} 0 {{dmg2=[[0]]}} {{dmg2type=}} {{crit1=[[0[CRIT]]]}} {{crit2=[[0[CRIT]]]}} {{save=1}} {{saveattr=Wisdom}} {{savedesc=}} {{savedc=[[[[[(@{selected|spell_save_dc})]][SAVE]]]](!&#13;/gr 1d20 WIS SAVE vs DC @{selected|spell_save_dc})}} {{desc=You awaken the sense of mortality in one creature you can see within range. A construct or an undead is immune to this effect. The target must succeed on a Wisdom saving throw or become frightened of you until the spell ends. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.}}   {{spelllevel=1}} {{innate=}} {{globalattack=@{selected|global_attack_mod}}} {{globaldamage=[[0]]}} {{globaldamagecrit=[[0]]}} {{globaldamagetype=@{selected|global_damage_mod_type}}} ammo= @{selected|charname_output}
+
+!cmaster --add,condition=concentration,duration=10,direction=-1,message=Concentrating on Cause Fear{&select @{selected|token_id}}
+
+/w gm [Apply Fear](!cmaster --add,condition=cause fear,duration=10,direction=-1,message=Wis save vs DC[[@{selected|spell_save_dc}]] at the end of turn{&select @{target|token_id}})
