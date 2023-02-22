@@ -1,0 +1,1 @@
+@{selected|wtype}&{template:traits} @{selected|charname_output} {{name=Sorcerous Recovery}} {{source=Class: Sorcerer (DD)}} {{description=You are a font of sorcerous power. Once per long rest, when you finish a short rest, you may recover all of your expended sorcery points.}}
