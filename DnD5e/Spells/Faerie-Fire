@@ -1,0 +1,12 @@
+!Spawn {{
+--name|Faerie Fire
+--size| 4,4
+--fx| burst-smoke
+--order| back
+}}
+
+@{selected|wtype}&{template:spell} {{level=evocation 1}} {{name=Faerie Fire}} {{castingtime=1 action}} {{range=60 feet}} {{target=Each object in a 20-foot cube within range}} {{v=1}} 0 0 {{material=}} {{duration=Up to 1 minute}} {{description=Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Dexterity saving throw vs DC [[@{selected|spell_save_dc}]]. For the duration, objects and affected creatures shed dim light in a 10-foot radius. Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can’t benefit from being invisible.}} {{athigherlevels=}} 0 {{innate=}} {{concentration=1}} @{selected|charname_output}
+
+!cmaster --add,condition=concentration,duration=10,direction=-1,message=Concentrating on Faerie Fire {&select @{selected|token_id}}
+
+Select target and [Apply Debuff](!cmaster --add,condition=faerie fire,duration=10,direction=-1%NEWLINE%!token-mod --set emits_bright_light|off emits_low_light|on low_light_distance|10 light_angle|360 lightColor#ff0000|Purple)
