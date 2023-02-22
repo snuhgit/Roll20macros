@@ -1,0 +1,17 @@
+@{selected|wtype}&{template:traits} @{selected|charname_output} {{name=[[1t[Wounds]]] Wound}} {{source=Injured}} {{description=You have been knocked unconscious after suffering a grievous wound. Add the specified wound to your character sheet.
+
+**Effects**: A wound cause Exhaustion (automatically applied). On a critical hit or fumble may consume a hit die.
+
+**Treating**: During a short rest you may spend one hour to treat a wound using first-aid knowledge and supplies—make an Intelligence (Medicine) or Wisdom (Medicine) check (DC 10) to patch up the wound. A treated wound no longer causes Exhaustion.
+
+**Recovery**: After a long rest make a Constitution (Medicine) check (DC 15) for each wound. Choosing the Relaxation downtime action let's you roll with Advantage.
+
+Any magic healing may automatically recover a wound instead of hit points.
+
+**Party Stress**: Each *other* party member must gain [moderate stress](~Stress-Gain).}}
+
+!token-mod --set statusmarkers|injured
+
+!cmaster --add,condition=prone,duration=1,direction=0 --add,condition=dying,duration=1,direction=0
+
+!modattr --silent --charid @{selected|character_id} --stress|[[1d6]]
