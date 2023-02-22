@@ -1,0 +1,3 @@
+@{selected|wtype}&{template:traits} @{selected|charname_output} {{name=Totem Spirit: Bear}} {{source=Class: Barbarian Totem Warrior}} {{description=While raging, you have resistance to all damage except psychic damage. The spirit of the bear makes you tough enough to stand up to any punishment.}}
+
+!token-mod --add,condition=damage-resistance
