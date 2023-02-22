@@ -1,0 +1,3 @@
+@{selected|wtype}&{template:traits} @{selected|charname_output} {{name=Armor Expertise: Heavy}} {{source=Other: Proficiency}} {{description=Reduce any bludgeoning, piercing, and slashing damage that you take from non-magical weapons by your proficiency bonus, to a minimum of 1.}}
+
+!cmaster --add,condition=armor expertise,duration=[[@{selected|pb}]],direction=0
