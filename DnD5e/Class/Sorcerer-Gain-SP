@@ -1,0 +1,3 @@
+@{selected|wtype}&{template:traits} @{selected|charname_output} {{name=Gain SP}} {{source=Class: Sorcerer (DD)}} {{description=
+Converting a Spell Slot to Sorcery Points
+As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level.}}
