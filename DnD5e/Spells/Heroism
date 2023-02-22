@@ -1,0 +1,5 @@
+@{selected|wtype}&{template:spell} {{level=enchantment ?{Cast at what level?|Level 1,1|Level 2,2|Level 3,3|Level 4,4|Level 5,5|Level 6,6|Level 7,7|Level 8,8|Level 9,9}}} {{name=Heroism}} {{castingtime=1 action}} {{range=Touch}} {{target=A willing creature you touch}} {{v=1}} {{s=1}} 0 {{material=}} {{duration=Up to 1 minute}} {{description=A willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to being frightened and gains temporary hit points equal to your spellcasting ability modifier at the start of each of its turns. When the spell ends, the target loses any remaining temporary hit points from this spell.}} {{athigherlevels= When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.}} 0 {{innate=}} {{concentration=1}} @{selected|charname_output}
+
+!cmaster --add,condition=concentration,duration=10,direction=-1,message=Concentrating on Heroism{&select @{selected|token_id}}
+
+!cmaster --add,condition=heroism{&select @{target|token_id}}
