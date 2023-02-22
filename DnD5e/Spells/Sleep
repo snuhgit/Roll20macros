@@ -1,0 +1,12 @@
+!Spawn {{
+--name| Sleep
+--size| 8,8
+--fx| nova-charm
+--order|back
+}}
+
+@{selected|wtype}&{template:atkdmg} {{mod=-}} {{rname=Sleep}} {{r1=[[0d20cs>20]]}} {{r2=[[0d20cs>20]]}} 0 {{range=90 feet}} {{damage=1}} {{dmg1flag=1}} {{dmg1=[[5d8]]}} {{dmg1type=Hit Points of Creatures }} 0 {{dmg2=[[0]]}} {{dmg2type=}} {{crit1=[[5d8[CRIT]]]}} {{crit2=[[0[CRIT]]]}} 0 {{desc=This spell sends creatures into a magical slumber. Roll 5d8; the total is how many hit points of creatures this spell can affect. Creatures within 20 feet of a point you choose within range are affected in ascending order of their current hit points (ignoring unconscious creatures). Starting with the creature that has the lowest current hit points, each creature affected by this spell falls unconscious until the spell ends, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. Subtract each creature’s hit points from the total before moving on to the creature with the next lowest hit points. A creature’s hit points must be equal to or less than the remaining total for that creature to be affected. Undead and creatures immune to being charmed aren’t affected by this spell.
+
+At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d8 for each slot level above 1st.}} {{hldmg=[[(2*?{Cast at what level?|Level 1,0|Level 2,1|Level 3,2|Level 4,3|Level 5,4|Level 6,5|Level 7,6|Level 8,7|Level 9,8})d8]]}} {{hldmgcrit=[[(2*?{Cast at what level?|Level 1,0|Level 2,1|Level 3,2|Level 4,3|Level 5,4|Level 6,5|Level 7,6|Level 8,7|Level 9,8})d8]]}} {{spelllevel=1}} {{innate=}} {{globalattack=@{selected|global_attack_mod}}} {{globaldamage=[[0]]}} {{globaldamagecrit=[[0]]}} {{globaldamagetype=@{selected|global_damage_mod_type}}} ammo= @{selected|charname_output}
+
+/w gm [Apply Sleep](`!cmaster --add,condition=unconscious,duration=10,direction=-1,message=From sleep spell)
