@@ -1,0 +1,3 @@
+@{selected|wtype}&{template:traits} @{selected|charname_output} {{name=Human Determination}} {{source=Racial: Human}} {{description=You are filled with determination. If you fail an attack roll, ability check, or saving throw, you can reroll one d20. You must keep the new result.
+
+After you use Human Determination, you can't use it again until you complete a short or long rest.}}
