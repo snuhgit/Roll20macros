@@ -1,0 +1,1 @@
+!setattr --sel --hp|[[{?{Spell Slot Level}d8+@{selected|hp},0d1+@{selected|hp|max}}kl1]] --evaluate --lvl?{Spell Slot Level}_slots_expended|%lvl?{Spell Slot Level}_slots_expended%-1
