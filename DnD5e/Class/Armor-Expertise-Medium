@@ -1,0 +1,3 @@
+@{selected|wtype}&{template:traits} @{selected|charname_output} {{name=Armor Expertise: Medium}} {{source=Other: Proficiency}} {{description=Reduce any bludgeoning, piercing, and slashing damage that you take from non-magical weapons by half your proficiency bonus (rounded down), to a minimum of 1.}}
+
+!cmaster --add,condition=armor expertise,duration=[[floor(@{selected|pb}/2)]],direction=0
