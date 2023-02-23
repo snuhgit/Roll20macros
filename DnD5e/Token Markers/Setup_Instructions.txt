@@ -1,0 +1,31 @@
+Created using https://game-icons.net/
+
+Setup:
+  Background:
+    Type: Gradient
+    Gradient: Plain
+      Color: 000000
+    Shape: Circle
+    Frame:
+      Width: 0
+      Color: 000000
+  Foreground:
+    Transformations: None
+    Position: 0x0
+    Skew: 0x0
+    Paths: Break apart
+    Gradient: Plain
+      Color: 4A90E2
+    Shadow:
+      Enabled: true
+      Color: 000000
+      Blur: 15
+      xy: 0x0
+      Side: out
+    Stroke:
+      Enabled: false
+  Size & Preset:
+    Dimensions: 512px
+    Canvas: Transparent
+    Gallery: original
+  Download: PNG
