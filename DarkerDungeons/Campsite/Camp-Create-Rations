@@ -1,0 +1,1 @@
+/w gm &{template:default} {{name=@{selected|character_name} Cooks Food}} {{Create Food Rations= Create [[1d4+1]] food rations}} {{Roll=[[1d20+@{selected|wisdom_mod}+@{selected|survival_prof}]]}}

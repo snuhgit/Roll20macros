@@ -1,1 +1,1 @@
-/w gm &{template:default} {{name=@{selected|character_name} Relaxes in Solitude}} {{Roll=[[1d20+@{selected|wisdom_mod}]]}}
+!/w gm &{template:default} {& define ([AdvRoll] ?{Roll with dis/advantage|None,1d20|Advantage,2d20kh1|Disadvantage,2d20kl1}) ([ActivityResult] [[?{Roll with dis/advantage}+@{selected|wisdom_mod} ]])} {{name=@{selected|character_name} Relaxes in Solitude}} {{Roll AdvRoll+@{selected|wisdom_mod} vs DC @{Campsite|activity_dc}=ActivityResult}}{& if ActivityResult < @{Campsite|activity_dc}}{{Outcome=Failure}}{&else}{{Outcome=Success}}{& end}{& simple}
