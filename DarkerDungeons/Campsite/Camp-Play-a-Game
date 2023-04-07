@@ -1,2 +1,1 @@
 /w gm &{template:default} {{name=@{selected|character_name} Plays a Game}} {{Roll=[[1d20+@{selected|intelligence_mod}]]}}
-%{Mule-Rules|Camp-Sleep}
