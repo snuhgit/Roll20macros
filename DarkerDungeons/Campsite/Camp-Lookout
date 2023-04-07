@@ -1,0 +1,2 @@
+/w gm &{template:default} {{name=@{selected|character_name} is Lookout}} {{Result=[[?{Roll Type|Standard, 1d20|Advantage, 2d20kh1|Disadvantage, 2d20kl1}+@{selected|intelligence_mod}+@{selected|survival_prof}]]}}
+%{Mule-Rules|Camp-Sleep}

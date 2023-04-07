@@ -1,0 +1,2 @@
+/w gm &{template:default} {{name=@{selected|character_name} Relaxes in Solitude}} {{Roll=[[1d20+@{selected|wisdom_mod}]]}}
+%{Mule-Rules|Camp-Sleep}

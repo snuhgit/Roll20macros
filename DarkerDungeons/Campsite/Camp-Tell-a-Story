@@ -1,0 +1,2 @@
+/w gm &{template:default} {{name=@{selected|character_name} Tells a Story}} {{Inspiration Target=?{Who do you want to Inspire?}}} {{Roll=[[1d20+@{selected|charisma_mod}+@{selected|performance_prof}]]}}
+%{Mule-Rules|Camp-Sleep}

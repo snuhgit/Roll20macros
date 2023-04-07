@@ -1,7 +1,5 @@
-!setattr --name Campsite --activity_dc|{& if @{Campsite|setup_failures} > 1}15{& elseif @{Campsite|setup_failures} = 1}10{& else}5{& end}
-
 !group-check --whisper --Camping
 
-&{template:default} {{name=Camp Activities }} {{[Brew Drinks](~Camp-Brew-Drinks-Menu)= [Cook Food](~Camp-Cook-Food-Menu)}} {{[Craft an Item](~Camp-Craft-an-Item)= [Lookout](~Camp-Lookout)}} {{[Play a Game](~Camp-Play-a-Game)= [Play Music](~Camp-Play-Music)}} {{[Relax in Solitude](~Camp-Relax-in-Solitude)= [Tell a Story](~Camp-Tell-a-Story)}}
+&{template:default} {{name=Camp Activities (DC @{Campsite|activity_dc})}} {{Choose an activity}} {{[Brew Drinks](~Camp-Brew-Drinks)= [Cook Food](~Camp-Cook-Food)}} {{[Craft an Item](~Camp-Craft-an-Item)= [Lookout](~Camp-Lookout)}} {{[Play a Game](~Camp-Play-a-Game)= [Play Music](~Camp-Play-Music)}} {{[Relax in Solitude](~Camp-Relax-in-Solitude)= [Tell a Story](~Camp-Tell-a-Story)}} {{ fatigue/condition may cause disadvantage on activity=but not sleep check }} {{and then, = [Sleep](~Camp-Sleep)}} {{ Lookout Role, Sleeping in Armor = disadvantage }} {{Bedroll or Tent, Inspiration = advantage}}
 
 !roll20AM --config,menu=Camp

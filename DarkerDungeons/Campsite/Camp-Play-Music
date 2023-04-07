@@ -1,0 +1,2 @@
+/w gm &{template:default} {{name=@{selected|character_name} Plays Music}} {{Inspiration Target=?{Who do you want to Inspire?}}} {{Roll=[[1d20+@{selected|dexterity_mod}+@{selected|performance_prof}]]}}
+%{Mule-Rules|Camp-Sleep}

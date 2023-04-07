@@ -1,0 +1,1 @@
+!setattr --fb-public --fb-header Camp Setup Complete: @{Campsite|setup_failures} failures, @{Campsite|setup_successes} successes --name Campsite --activity_dc|{& if @{Campsite|setup_failures} > 1}15{& elseif @{Campsite|setup_failures} = 1}10{& else}5{& end}
