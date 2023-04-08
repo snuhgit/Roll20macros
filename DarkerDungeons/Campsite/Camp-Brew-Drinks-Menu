@@ -1,1 +1,0 @@
-/w @{selected|character_name} &{template:default} {{name=Spend one use of your Brewing Supplies to attempt one of the following:}} {{[Brew a Balm](~Camp-Brew-a-Balm)= [Brew a Restorative](~Camp-Brew-a-Restorative)}} {{[Create Drinkable Rations](~Camp-Create-Water-Rations)=}}

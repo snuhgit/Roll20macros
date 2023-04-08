@@ -1,1 +1,0 @@
-/w gm /w @{selected|character_name} &{template:default} {{name=@{selected|character_name} Cooks Food}} {{Food Rations Used=?{How many food rations do you use? Creates 2 meals per ration}}} {{Stretch Rations= Consumers regains [[1d4+1]] hp}} {{Roll=[[1d20+@{selected|wisdom_mod}+@{selected|survival_prof}]]}}

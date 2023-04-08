@@ -1,1 +1,0 @@
-/w @{selected|character_name} &{template:default} {{name=Spend one use of your Cooking Supplies to attempt one of the following:}} {{[Cook a Hot Meal](~Camp-Cook-a-Hot-Meal)= [Create Rations](~Camp-Create-Rations)}} {{[Stretch Rations](~Camp-Stretch-Rations)=}}

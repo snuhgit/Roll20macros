@@ -1,1 +1,0 @@
-/w gm &{template:default} {{name=@{selected|character_name} Cooks Food}} {{Food Rations Used=?{How many food rations do you use? Creates 1 hot meal per ration}}} {{Cook a Hot Meal = Each consumer regains 1 spent HD (max 1/day)}} {{Roll=[[1d20+@{selected|wisdom_mod}+@{selected|survival_prof}]]}}
