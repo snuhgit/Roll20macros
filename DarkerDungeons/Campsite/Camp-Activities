@@ -1,5 +1,7 @@
 !group-check --whisper --Camping
 
-&{template:default} {{name=Camp Activities (DC @{Campsite|activity_dc})}} {{You may=[Recover HP](~Camp-Recover-HP)}}{{Then, choose an activity}} {{[Brew Drinks](~Camp-Brew-Drinks)= [Cook Food](~Camp-Cook-Food)}} {{[Craft an Item](~Camp-Craft-Item)= [Lookout](~Camp-Lookout)}} {{[Play a Game](~Camp-Play-a-Game)= [Play Music](~Camp-Play-Music)}} {{[Relax in Solitude](~Camp-Relax-in-Solitude)= [Tell a Story](~Camp-Tell-a-Story)}} {{ fatigue/condition may cause disadvantage on activity=but not sleep check }} {{Finally = [Sleep](~Camp-Sleep)}} {{ Lookout Role, Sleeping in Armor = disadvantage }} {{Bedroll or Tent, Inspiration = advantage}}
+&{template:default} {{name=Camp Activities (DC @{Campsite|activity_dc})}} {{You may=[Recover HP](~Camp-Recover-HP)}}{{Then=choose an activity}} {{[Brew Drinks](~Camp-Brew-Drinks)= [Cook Food](~Camp-Cook-Food)}} {{[Craft an Item](~Camp-Craft-Item)= [Lookout](~Camp-Lookout)}} {{[Play a Game](~Camp-Play-a-Game)= [Play Music](~Camp-Play-Music)}} {{[Relax in Solitude](~Camp-Relax-in-Solitude)= [Tell a Story](~Camp-Tell-a-Story)}} {{ fatigue/condition may cause disadvantage on activity=but not sleep check }} {{Finally = [Sleep](~Camp-Sleep)}} {{ Lookout Role, Sleeping in Armor = disadvantage }} {{Bedroll or Tent, Inspiration = advantage}}
+
+!setattr --silent --name Campsite --game_player|none
 
 !roll20AM --config,menu=Camp
