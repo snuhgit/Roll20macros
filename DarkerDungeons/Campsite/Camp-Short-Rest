@@ -1,8 +1,0 @@
-!group-check --whisper --Camping
-
-&{template:default} {{name=Camp Short Rest }} 
-{{actions=
-[Recover HP](~Camp-Recover-HP)
-[Eat](~Camp-Eat)
-[Drink](~Camp-Drink)
-[Treat Wound](~Camp-Treat-Wound)}}
