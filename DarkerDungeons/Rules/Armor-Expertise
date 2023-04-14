@@ -1,0 +1,5 @@
+&{template:traits}{{name=Armor Expertise (Darker Dungeons)}}{{description=If you're wearing medium or heavy armor (and you're appropriately proficient) you gain one of the following perks. These doesn't stack with any additional armor feats or bonuses you might gain—use the highest value.
+
+Medium Armor: Reduce any bludgeoning, piercing, and slashing damage that you take from non-magical weapons by half your proficiency bonus (rounded down), to a minimum of 1.
+
+Heavy Armor: Reduce any bludgeoning, piercing, and slashing damage that you take from non-magical weapons by your proficiency bonus, to a minimum of 1.}}
