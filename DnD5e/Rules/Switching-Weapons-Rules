@@ -1,4 +1,4 @@
-&{template:traits}{{name=Other Activity on Your Turn}}{{description=Your turn can include a variety of flourishes that require neither your action nor your move.
+&{template:traits}{{source=5th Ed SRD and general consensus across rando Internet forums}}{{name=Switching Weapons in Combat}}{{description=Your turn can include a variety of flourishes that require neither your action nor your move.
 
 You can communicate however you are able, through brief utterances and gestures, as you take your turn.
 
@@ -8,4 +8,13 @@ If you want to interact with a second object, you need to use your action. Some 
 
 The DM might require you to use an action for any of these activities when it needs special care or when it presents an unusual obstacle. For instance, the DM could reasonably expect you to use an action to open a stuck door or turn a crank to lower a drawbridge.
 
-"Drawing or sheathing a weapon can be performed as your free item interaction for the round. If you want to sheathe one weapon while drawing another, that takes your main action; or you have to spread it across two rounds. You can also just drop your old weapon on the ground (without requiring an action), and then draw your new weapon as a free item interaction."}}
+TLDR:
+
+"Anyone who wishes to swap their active weapon and also enjoy swinging the new one can achieve this result by dropping their current weapon, without taking an action, and then use the item interaction to swap to the new weapon."
+
+"e.g. Switching from a Bow to Sword+Shield can be performed across 2 rounds.  
+Round 1: drop bow (no action) and raise Shield (object interaction)
+Round 2: draw Sword (object interaction)"
+
+"If you don't want to drop anything, you can only stow or draw one weapon or shield per round"
+}}
