@@ -1,1 +1,1 @@
-!&{template:default}{{name=@(speaker.character_name): Readied Action}}{{When=?{When this happens}}}{{I am prepared to=?{I may take this action}}}{&simple}
+!&{template:default}{{name=@{selected|character_name}: Readied Action}}{{When=?{When this happens}}}{{I am prepared to=?{I may take this action}}}{&simple}
